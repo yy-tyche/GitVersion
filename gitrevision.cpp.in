@@ -1,0 +1,11 @@
+#include "gitrevision.hpp"
+
+#define NODE_GIT_REVISION_SHA "@NODE_GIT_REVISION_SHA@"
+#define NODE_GIT_REVISION_UNIX_TIMESTAMP @NODE_GIT_REVISION_UNIX_TIMESTAMP@
+
+namespace nodegit { 
+
+const char* const node_git_revision_sha = NODE_GIT_REVISION_SHA;
+const uint32_t node_git_revision_unix_timestamp = NODE_GIT_REVISION_UNIX_TIMESTAMP;
+
+} // end namespace node
